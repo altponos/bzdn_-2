@@ -1,0 +1,5 @@
+monitoring_dir: /opt/monitoring
+prometheus_retention: 30d
+scrape_interval: 15s
+node_exporter_target: node-exporter:9100
+grafana_admin_password: "{{ vault_grafana_password }}"
